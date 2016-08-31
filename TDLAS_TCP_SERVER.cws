@@ -1,0 +1,125 @@
+[Workspace Header]
+Version = 911
+Pathname = "/f/Labwindows cvi/TDLAS_TCP_SERVER/TDLAS_TCP_SERVER.cws"
+CVI Dir = "/d/program files (x86)/national instruments/cvi2009"
+CVI Shared Dir = "/D/Program Files (x86)/National Instruments/Shared/CVI"
+CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2009"
+CVI Pub Global Dir = "/C/ProgramData/National Instruments/CVI"
+IVI Standard Root Dir = "/C/Program Files (x86)/IVI Foundation/IVI"
+IVI Standard Root 64-bit Dir = "/C/Program Files/IVI Foundation/IVI"
+VXIplug&play Framework Dir = "/C/Program Files (x86)/IVI Foundation/VISA/winnt"
+VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
+Number of Projects = 1
+Active Project = 1
+Project 0001 = "TDLAS_TCP_SERVER.prj"
+Drag Bar Left = 131
+Window Top = 30
+Window Left = 8
+Window Bottom = 720
+Window Right = 675
+Maximized = False
+Maximized Children = True
+Max32 Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win For Warnings = True
+Show Build Dialog = False
+Save Changes Before Running = "Always"
+Hide Windows = False
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 3
+Window Confinement Region Enabled = True
+MainColumnWidth = 114
+FileDateColumnWidth = 70
+FileSizeColumnWidth = 70
+StatusColumnWidth = 70
+
+[Project Header 0001]
+Version = 911
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug"
+Build Platform = "Intel 32-bit"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+Force Rebuild = False
+
+[File 0001]
+Path = "/f/Labwindows cvi/TDLAS_TCP_SERVER/TDLAS_TCP_SERVER.uir"
+File Type = "User Interface Resource"
+Disk Date = 3555478790
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Window Height = 323
+Window Width = 397
+Window Z-Order = 3
+
+[File 0002]
+Path = "/f/Labwindows cvi/TDLAS_TCP_SERVER/TDLAS_TCP_SERVER.c"
+File Type = "CSource"
+Disk Date = 3555473415
+In Projects = "1,"
+Window Top = 92
+Window Left = 42
+Window Z-Order = 1
+Source Window State = "1,23,37,37,0,43,43,0,0,71,0,0,0,0,0,35,155,0,163,49,395,603,1,0,"
+
+[File 0003]
+Path = "/f/Labwindows cvi/TDLAS_TCP_SERVER/TDLAS_TCP_SERVER.h"
+File Type = "Include"
+Disk Date = 3555471458
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Window Z-Order = 2
+Source Window State = "1,21,21,21,9,28,28,0,3,60,0,51,0,0,0,23,7,0,21,9,395,463,1,16,"
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0001]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[Command Line Args 0001]
+Command Line Args = ""
+Working Directory = ""
+
+[Watch Point 1]
+Watch Expression = "ReceiveData"
+Update Display Continuously = True
+Break When Value Changes = False
+Scope = "Local"
+File = "TDLAS_TCP_SERVER.c"
+Function = "SetTemperature"
+DllName = "f:\\Labwindows cvi\\TDLAS_TCP_SERVER\\TDLAS_TCP_SERVER.exe"
+
