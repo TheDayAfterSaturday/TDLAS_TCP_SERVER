@@ -1,0 +1,2 @@
+# TDLAS_TCP_SERVER
+本工程是Labwindows CVI下写的TDLAS数据采集系统上位机程序，上位机与下位机的通信是基于TCP协议，上位机作为TCP服务器端，下位机是TCP客户端
