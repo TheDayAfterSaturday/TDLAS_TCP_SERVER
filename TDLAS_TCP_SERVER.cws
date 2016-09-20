@@ -1,6 +1,6 @@
 [Workspace Header]
 Version = 911
-Pathname = "/f/Labwindows cvi/TDLAS_TCP_SERVER/TDLAS_TCP_SERVER.cws"
+Pathname = "/f/Labwindows cvi/Backup/TDLAS_TCP_SERVER_0919/TDLAS_TCP_SERVER.cws"
 CVI Dir = "/d/program files (x86)/national instruments/cvi2009"
 CVI Shared Dir = "/D/Program Files (x86)/National Instruments/Shared/CVI"
 CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2009"
@@ -12,12 +12,12 @@ VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
 Number of Projects = 1
 Active Project = 1
 Project 0001 = "TDLAS_TCP_SERVER.prj"
-Drag Bar Left = 131
+Drag Bar Left = 142
 Window Top = 30
-Window Left = 8
+Window Left = 691
 Window Bottom = 720
-Window Right = 675
-Maximized = False
+Window Right = 1687
+Maximized = True
 Maximized Children = True
 Max32 Number Of Errors = 20
 Track Include File Dependencies = True
@@ -31,7 +31,7 @@ Break At First Statement = False
 Sort Type = "File Name"
 Number of Opened Files = 3
 Window Confinement Region Enabled = True
-MainColumnWidth = 114
+MainColumnWidth = 125
 FileDateColumnWidth = 70
 FileSizeColumnWidth = 70
 StatusColumnWidth = 70
@@ -48,35 +48,39 @@ Batch Build Debug = False
 Force Rebuild = False
 
 [File 0001]
-Path = "/f/Labwindows cvi/TDLAS_TCP_SERVER/TDLAS_TCP_SERVER.uir"
+Path = "/f/Labwindows cvi/Backup/TDLAS_TCP_SERVER_0919/TDLAS_TCP_SERVER.uir"
 File Type = "User Interface Resource"
-Disk Date = 3555478790
+Disk Date = 3557092930
 In Projects = "1,"
 Window Top = 32
 Window Left = 10
 Window Height = 323
 Window Width = 397
-Window Z-Order = 3
+Window Z-Order = 2
 
 [File 0002]
-Path = "/f/Labwindows cvi/TDLAS_TCP_SERVER/TDLAS_TCP_SERVER.c"
+Path = "/f/Labwindows cvi/Backup/TDLAS_TCP_SERVER_0919/TDLAS_TCP_SERVER.c"
 File Type = "CSource"
-Disk Date = 3555473415
-In Projects = "1,"
-Window Top = 92
-Window Left = 42
-Window Z-Order = 1
-Source Window State = "1,23,37,37,0,43,43,0,0,71,0,0,0,0,0,35,155,0,163,49,395,603,1,0,"
-
-[File 0003]
-Path = "/f/Labwindows cvi/TDLAS_TCP_SERVER/TDLAS_TCP_SERVER.h"
-File Type = "Include"
-Disk Date = 3555471458
+Disk Date = 3557180560
 In Projects = "1,"
 Window Top = 32
 Window Left = 10
-Window Z-Order = 2
-Source Window State = "1,21,21,21,9,28,28,0,3,60,0,51,0,0,0,23,7,0,21,9,395,463,1,16,"
+Window Z-Order = 1
+Source Window State = "1,576,577,577,0,87,87,0,0,169,0,0,0,0,0,36,696,0,706,128,395,603,1,0,"
+Breakpoint 0001 = "463,0,enabled,"
+Breakpoint 0002 = "465,0,enabled,"
+Breakpoint 0003 = "466,0,enabled,"
+Breakpoint 0004 = "467,0,enabled,"
+
+[File 0003]
+Path = "/f/Labwindows cvi/Backup/TDLAS_TCP_SERVER_0919/TDLAS_TCP_SERVER.h"
+File Type = "Include"
+Disk Date = 3557091488
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Window Z-Order = 3
+Source Window State = "1,122,122,122,0,118,118,0,3,60,0,4,0,0,0,23,13,0,122,0,395,463,1,16,"
 
 [Build Options 0001]
 Generate Browse Info = True
@@ -113,13 +117,4 @@ External Process Path = ""
 [Command Line Args 0001]
 Command Line Args = ""
 Working Directory = ""
-
-[Watch Point 1]
-Watch Expression = "ReceiveData"
-Update Display Continuously = True
-Break When Value Changes = False
-Scope = "Local"
-File = "TDLAS_TCP_SERVER.c"
-Function = "SetTemperature"
-DllName = "f:\\Labwindows cvi\\TDLAS_TCP_SERVER\\TDLAS_TCP_SERVER.exe"
 
